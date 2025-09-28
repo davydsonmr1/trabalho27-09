@@ -61,7 +61,7 @@ async function pedidosRoutes(fastify, options) {
     }
   });
 
-  fastify.get('/pedidos/cidade/:cidade', async (request, reply) => {
+  fastify.get('/cidade/:cidade', async (request, reply) => {
     try {
       const { cidade } = request.params;
       const pedidos = await knex('pedidos')
