@@ -1,4 +1,6 @@
 # API de Gerenciamento de Pedidos
+DAVYDSON MACIEL RAFAEL
+
 
 Sistema de API em Node.js para gerenciamento de pedidos usando Fastify e Knex.js com MySQL.
 
