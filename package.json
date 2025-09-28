@@ -1,0 +1,18 @@
+{
+  "name": "trabalho-pedidos-api",
+  "version": "1.0.0",
+  "description": "API para gerenciamento de pedidos usando Fastify e Knex.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
+  },
+  "dependencies": {
+    "fastify": "^4.0.0",
+    "knex": "^2.5.0",
+    "mysql": "^2.18.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
